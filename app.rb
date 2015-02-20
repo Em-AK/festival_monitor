@@ -184,8 +184,11 @@ __END__
       sièges libres
       \-
       = projection.film
-%h3
-  TOTAL:
+%h3.text-center
   = @tickets.count
-  billets
-
+  billets vendus
+%p.pull-right
+  Réalisé pour le fun par
+  %a{href: "https://twitter.com/em_hack"} Emilien
+  |
+  %a{href: "https://github.com/Em-AK/festival_monitor"} Code Source
